@@ -25,7 +25,7 @@ export class ProjectsComponent implements OnInit {
         'This application is part of the Angular App portfolio website.',
         'Built with Angular and Angular Material for modern UI/UX design.'
       ],
-      githubLink: 'https://github.com/your-repo-link'
+      githubLink: 'https://github.com/Brindha2324/My_Portfolio.git'
     },
     {
       title: 'Employee Management System',
@@ -34,16 +34,16 @@ export class ProjectsComponent implements OnInit {
         'Developed an Employee Management System using JFrame for GUI and JDBC for database connectivity.',
         'Features include employee registration and login, updating details, and viewing records.'
       ],
-      githubLink: 'https://github.com/your-repo-link'
+      githubLink: 'https://github.com/Brindha2324/Java_Project.git'
     },
     {
-      title: 'MedxTotalCare - SpringBoot Application',
+      title: 'MedexTotalCare - SpringBoot Application',
       technologies: 'Spring Boot, MySQL, JSP',
       description: [
         'A comprehensive healthcare management application using Spring Boot.',
         'Includes features for pharmacy, optical, doctors home visits, pre-medical check-ups, insurance services, home sample collection, and medication refill.'
       ],
-      githubLink: 'https://github.com/your-repo-link'
+      githubLink: 'https://github.com/Brindha2324/Springboot-Application.git'
     }
   ];
 

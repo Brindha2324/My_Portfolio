@@ -1,14 +1,26 @@
 <div class="container">
   <h1>Internship & Certification</h1>
 
+  <h2>Internships</h2>
   <ul>
-      <li *ngFor="let workexp of workExpList">
-          <h2>{{workexp.role}}</h2>
-          <h3>{{workexp.company}}</h3>
-          <h4>{{workexp.duration}}</h4>
-          <ul>
-              <li *ngFor="let desc of workexp.description">{{desc}}</li>
-          </ul>
-      </li>
+    <li *ngFor="let workexp of workExpList">
+      <h3>{{workexp.role}}</h3>
+      <h4>{{workexp.company}}</h4>
+      <h5>{{workexp.duration}}</h5>
+      <ul>
+        <li *ngFor="let desc of workexp.description">{{desc}}</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Certifications</h2>
+  <ul>
+    <li *ngFor="let certification of certifications">
+      <h3>{{certification.title}}</h3>
+      <h4>{{certification.institution}}</h4>
+      <ul>
+        <li *ngFor="let detail of certification.details">{{detail}}</li>
+      </ul>
+    </li>
   </ul>
 </div>

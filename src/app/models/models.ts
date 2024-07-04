@@ -11,6 +11,11 @@ export interface Internship {
   duration: string;
   description: string[];
 }
+export interface Certification {
+  title: string;
+  institution: string;
+  details: string[];
+}
 
 export interface Skill {
   name: string;
@@ -22,4 +27,6 @@ export interface Project {
   title: string;
   technologies: string;
   description: string[];
+  githubLink: string;
 }
+

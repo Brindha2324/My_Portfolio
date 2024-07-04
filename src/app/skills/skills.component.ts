@@ -8,32 +8,13 @@ import { Skill } from '../models/models';
 })
 export class SkillsComponent implements OnInit {
   skills: Skill[] = [
-    {
-      name: 'Angular, Angular Material',
-      level: 'Expert',
-      rating: 85,
-    },
-    {
-      name: 'ASP.NET Core, EF Core',
-      level: 'Intermidiate',
-      rating: 70,
-    },
-    {
-      name: 'HTML, CSS, JS',
-      level: 'Expert',
-      rating: 90,
-    },
-    {
-      name: 'JAVA',
-      level: 'Expert',
-      rating: 80,
-    },
-    {
-      name: 'C++',
-      level: 'Intermediate',
-      rating: 70,
-    },
+    { name: 'Web Technologies - HTML, CSS, JavaScript, Typescript, Node Js,Bootstrap', level: 'Expert', rating: 85 },
+    { name: 'Frameworks/Libraries - ANGULAR JS , Spring Boot', level: 'Intermediate', rating: 75 },
+    { name: 'Programming Languages - JAVA', level: 'Expert', rating: 80 },
+    { name: 'Databases - MySQL', level: 'Intermediate', rating: 70 },
+    { name: 'Version Control Tools - GIT/GITHUB', level: 'Intermediate', rating: 90 },
   ];
+
   constructor() {}
 
   ngOnInit(): void {}

@@ -7,18 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalInformationComponent implements OnInit {
   myData: string[][] = [
-    ['Name', 'Sundar Pichai'],
-    ['DOB', '10/06/1972'],
-    ['Work Exp', '25 Years'],
-    ['Education', 'M.S (1995)'],
-    ['Interests', 'Cricket'],
+    ['Name', 'BRINDHA P'],
+    ['Phone', '+91-8148158580'],
+    ['Email', 'brindhapalani0910@gmail.com'],
+    ['Location', 'Tiruttani, Thiruvallur'],
   ];
 
   aboutMe: string[] = [
-    'Hi, I am a Software Engineer with 25 years of experience in software industry.',
-    'Worked as Head of Product Management in Google for various technologies (Google Search Engine, Google Drive, Chrome Browser).',
-    'Delivered all product withing deadlines. Always eager to learn new technologies.',
-    'Currently, working as CEO of Google Alphabet',
+    'A recent Bachelor of Engineering in Computer Science graduate eager to launch a career as a software developer.',
+    'Passionate about coding and problem-solving, I aim to contribute my skills and enthusiasm to a dynamic team, while continuously learning and growing in software development.'
   ];
 
   constructor() {}

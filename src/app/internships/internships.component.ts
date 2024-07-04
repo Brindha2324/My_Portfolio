@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Internship } from '../models/models';
+import { Internship, Certification } from '../models/models';
 
 @Component({
   selector: 'app-internships',
@@ -9,54 +9,30 @@ import { Internship } from '../models/models';
 export class InternshipsComponent implements OnInit {
   workExpList: Internship[] = [
     {
-      role: 'Chief Executing Officer',
-      company: 'Google (Alphabet)',
-      duration: 'Aug 2015 - Now',
+      role: 'Frontend Development Intern',
+      company: 'Aspire Systems',
+      duration: 'Jan 2023 - March 2023',
       description: [
-        'Working to expand google in remote areas.',
-        'Working to develop new technologies to make life easier.',
+        'Position Title: Frontend Development',
+        'Company Name: Aspire Systems',
+        'Duration: 3 Months',
       ],
-    },
-    {
-      role: 'Senior Vice President',
-      company: 'Google',
-      duration: 'Apr 2012 - Aug 2015',
-      description: [
-        'Involved in various Public talks',
-        'Open Sourced Google VP8',
-      ],
-    },
-    {
-      role: 'Vice President',
-      company: 'Google',
-      duration: 'Jul 2008 - Mar 2012',
-      description: [
-        'Included Android in Google',
-        'Worked on Development of Google Maps',
-      ],
-    },
-    {
-      role: 'Product Manager',
-      company: 'Google',
-      duration: 'Apr 2004 - Jun 2008',
-      description: [
-        'Worked on Google Toolbar',
-        'Involved in team to develop Google Chrome',
-      ],
-    },
-    {
-      role: 'Software Developer',
-      company: 'McKinsey & Co',
-      duration: 'Sep 2002 - Mar 2004',
-      description: [
-        'Worked with multiple teams to develop desktop and web applications',
-        'Worked on different technologies such as (Dotnet, C++, Java)',
-      ],
-    },
+    }
   ];
+
+  certifications: Certification[] = [
+    {
+      title: 'Java Fullstack Course',
+      institution: 'Besant Technologies, Chennai',
+      details: [
+        'Completed Java Fullstack course',
+        'Learned Spring Boot framework',
+        'Frontend development with Angular',
+      ]
+    }
+  ];
+
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

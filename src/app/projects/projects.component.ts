@@ -2,39 +2,51 @@ import { Component, OnInit } from '@angular/core';
 import { Project } from '../models/models';
 
 @Component({
-  selector: 'projects',
+  selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css'],
+  styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
-      title: 'Google Cloud, Gmail, Google Maps',
-      technologies: 'Cloud Compounting, Angular, Angular Material',
+      title: 'Detection of Misbehavior Activity As a CopyCat Node in WSN to Enhance the network security',
+      technologies: 'Java, MySQL',
       description: [
-        'Worked as a team lead to develop apps that are powered by Cloud.',
-        'Built the services of Google Map that can be used by third party apps to get data.',
-        'Was part of team to expand the google drive.',
+        'The project focuses on identifying and mitigating misbehavior in wireless sensor networks by detecting copycat nodes, thereby bolstering network security.',
+        'Technologies: Java, MySQL',
+        'Algorithms used: Distributed Hash Table, Chord Algorithm, RSA Algorithm'
       ],
+      githubLink: 'https://github.com/your-repo-link'
     },
     {
-      title: 'ChromeOS',
-      technologies: 'C, C++',
+      title: 'Angular App Portfolio Website',
+      technologies: 'Angular, Angular Material',
       description: [
-        'Worked as a team lead to build ChromeOS',
-        'Got to learn about linux kernel',
-        'Learned C, C++ to build an O.S.',
+        'This application is part of the Angular App portfolio website.',
+        'Built with Angular and Angular Material for modern UI/UX design.'
       ],
+      githubLink: 'https://github.com/your-repo-link'
     },
     {
-      title: 'Google Toolbar',
-      technologies: 'HTML, CSS, JS, C#',
+      title: 'Employee Management System',
+      technologies: 'Java, JFrame, MySQL',
       description: [
-        'Worked on Google Toolbar, to include the google search engine in Internet Explorer',
-        'Learned multiple technologies to build the product.',
+        'Developed an Employee Management System using JFrame for GUI and JDBC for database connectivity.',
+        'Features include employee registration and login, updating details, and viewing records.'
       ],
+      githubLink: 'https://github.com/your-repo-link'
     },
+    {
+      title: 'MedxTotalCare - SpringBoot Application',
+      technologies: 'Spring Boot, MySQL, JSP',
+      description: [
+        'A comprehensive healthcare management application using Spring Boot.',
+        'Includes features for pharmacy, optical, doctors home visits, pre-medical check-ups, insurance services, home sample collection, and medication refill.'
+      ],
+      githubLink: 'https://github.com/your-repo-link'
+    }
   ];
+
   constructor() {}
 
   ngOnInit(): void {}
